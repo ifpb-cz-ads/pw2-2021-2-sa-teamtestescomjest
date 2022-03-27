@@ -1,6 +1,6 @@
-# Supermarket - Back-end
+# Testes com Jest
 
-Back-end da aplicação desenvolvida para a apresentação final da disciplina de Programação para Web II.
+Aplicação desenvolvida em NodeJS para a apresentação final da disciplina de Programação para Web II. Foram desenvolvidos testes para funções básicas em JavaScript e para testes de Application Programming Interface (API) usando uma API de produtos.
 
 ## Dependências
 
@@ -20,7 +20,7 @@ yarn install
 
 ## Execução
 
-Você pode executar o projeto de duas maneiras, a primeira é para produção e é executada da seguinte maneira:
+Para executar a API você pode executar de duas maneiras, a primeira é para produção e é executada da seguinte maneira:
 
 ```
 npm start
@@ -42,4 +42,18 @@ ou
 
 ```
 yarn dev
+```
+
+## Testes
+
+Para executar os testes basta executar o seguinte comando:
+
+```
+npm run test
+```
+
+ou
+
+```
+yarn test
 ```
