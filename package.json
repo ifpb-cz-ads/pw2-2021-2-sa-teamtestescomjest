@@ -1,12 +1,27 @@
 {
-  "name": "tests-com-jest",
-  "version": "0.0.0",
-  "private": true,
+  "name": "pw2-2021-2-sa-teamtestescomjest",
+  "version": "1.0.0",
+  "description": "Repositório para o back-end da apresentação final da disciplina de Programação para Web II sobre testes com Jest",
+  "main": "index.js",
+  "repository": "https://github.com/ricardobgx/supermarket-back.git",
+  "author": "DRW",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "start": "node ./app.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "jest"
   },
   "dependencies": {
-    "jest": "^27.5.1"
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
   }
 }

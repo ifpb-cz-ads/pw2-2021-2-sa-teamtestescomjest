@@ -109,5 +109,7 @@ dist
 # macOS
 .DS_Store
 
+# Database
+database.sqlite
 
 sendgrid.env
